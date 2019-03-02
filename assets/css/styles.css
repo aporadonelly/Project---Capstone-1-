@@ -158,7 +158,7 @@ i {
 .longLine {
 	/*background: #48D1CC;*/
 	background: #EF6461;
-	width: 30%;
+	width: 35%;
 	height: 1px;
 }
 
@@ -262,7 +262,7 @@ i {
 	-o-background-size:cover;
 	background-size: cover;
 	/*background: #eaeaea;*/
-	height: 100vh;
+	height: auto;
 	color: #2D2D2D;
 	}
 
@@ -490,16 +490,16 @@ i {
 	}
 
 	#mission {
-		background: #fff;		
-		background-color: rgba(228,179,99,.5);
+		/*background: #fff;	*/	
+		background: rgba(0,0,0,.8);
 		height: auto;
 		text-align: justify;
 	}
 
 	#vision {
-		background-color: rgba(239,100,97,.5);
+		background: rgba(0,0,0,.7);
 		height: auto;
-		background: #eaeaea;
+		/*background: #eaeaea;*/
 		text-align: justify;
 	}
 
@@ -509,13 +509,13 @@ i {
 		text-align: center;
 	}
 
-	.landing-page-about {
+	/*.landing-page-about {
 		background: url('../images/mag/aboutSmall.jpg') no-repeat center center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size:cover;
 		-o-background-size:cover;
 		height: 100vh;	
-	}
+	}*/
 
 	.welcome-about {
 		/*border:2px solid #fff;*/
