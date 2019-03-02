@@ -152,8 +152,7 @@ i {
 .button_Cancel{
 	height: 40px;
 	margin-top: -4px;
-	/*background: #A71D31;*/
-	background:  teal;
+	background: #A71D31;
 	border: 0;
 	color: #fff;
 	font-family: Abel, sans-serif;
