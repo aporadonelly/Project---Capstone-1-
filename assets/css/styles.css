@@ -138,7 +138,7 @@ i {
 	color: #fff;
 	font-family: Abel, sans-serif;
 	border-radius: 5px;
-	text-transform: uppercase;
+	
 	border: 1px solid #fff;
 	letter-spacing: 3px;
 }
@@ -149,10 +149,22 @@ i {
 	box-shadow: 0 0 10px #EF6461;
 }
 
+.button_Cancel{
+	height: 40px;
+	margin-top: -4px;
+	background: #A71D31;
+	border: 0;
+	color: #fff;
+	font-family: Abel, sans-serif;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	letter-spacing: 3px;
+}
+
 .buttonHome:hover {
-	-moz-box-shadow: 0 0 10px #EF6461;
-	-webkit-box-shadow: 0 0 10px #EF6461;
-	box-shadow: 0 0 10px #EF6461;
+	-moz-box-shadow: 0 0 10px #A71D31;
+	-webkit-box-shadow: 0 0 10px #A71D31;
+	box-shadow: 0 0 10px #A71D31;
 }
 
 .longLine {
