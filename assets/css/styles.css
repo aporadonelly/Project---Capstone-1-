@@ -152,7 +152,8 @@ i {
 .button_Cancel{
 	height: 40px;
 	margin-top: -4px;
-	background: #A71D31;
+	/*background: #A71D31;*/
+	background:  teal;
 	border: 0;
 	color: #fff;
 	font-family: Abel, sans-serif;
@@ -162,9 +163,9 @@ i {
 }
 
 .buttonHome:hover {
-	-moz-box-shadow: 0 0 10px #A71D31;
-	-webkit-box-shadow: 0 0 10px #A71D31;
-	box-shadow: 0 0 10px #A71D31;
+	-moz-box-shadow: 0 0 10px rgba(157, 213, 242, 1);
+	-webkit-box-shadow: 0 0 10px rgba(157, 213, 242, 1);
+	box-shadow: 0 0 10px rgba(157, 213, 242, 1);
 }
 
 .longLine {
@@ -400,8 +401,9 @@ i {
 
 .fab {
 	/*color: rgba(157, 213, 242, 1);*/
+	color: tomato;
 	/*color: #EF6461;*/
-	color: #fff;
+	/*color: #A71D31;*/
 }
 
 .footer-copyright {
