@@ -65,14 +65,20 @@ i {
 }
 
 /*.navbar {
-	background: #fff;
+	background: rgba(0,0,0,.7);
 }*/
 
 .navbar .nav-link {
-	color: #000;
-	margin-left: 35px;
+	color: #fff;
 	font-family: Abel, serif;
-	letter-spacing: 5px;
+	font-size: 15px;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.navbar .active {
+	border: 1px solid #fff;
+	border-radius: 5px;
 }
 
 .nLogo {
@@ -134,6 +140,7 @@ i {
 	font-family: Abel, sans-serif;
 	border-radius: 5px;
 	text-transform: uppercase;
+	border: 1px solid #fff;
 }
 
 .button_1:hover {
@@ -149,7 +156,8 @@ i {
 }
 
 .longLine {
-	background: #48D1CC;
+	/*background: #48D1CC;*/
+	background: #EF6461;
 	width: 40%;
 	height: 1px;
 }
@@ -190,6 +198,7 @@ i {
 	text-align: justify;
 	height: 100%;
 	background: #fff;
+	margin-top: 50px;
 }
 
 .About-US p {
@@ -210,18 +219,21 @@ i {
 }
 
 #mission {
-	background-color: rgba(228,179,99,.5);
+	/*background-color: rgba(228,179,99,.5);*/
+	background: #eaeaea;
 	/*background-color: rgba(228,179,99,.5);*/
 	/*height: 100%;*/
 	text-align: justify;
+	padding: 60px;
 }
 
 #vision {
 	/*background-color: rgba(239,100,97,.5);*/
-	background: #eaeaea;
+	/*background: #eaeaea;*/
 	/*height: 100%;*/
-	/*background: #fff;*/
+	background: #fff;
 	text-align: justify;
+	padding: 60px;
 }
 
 
@@ -229,7 +241,7 @@ i {
 /* contact us section*/
 .contactUs-section {
 	/*background: #EDEBE5;*/
-	background: url('../images/Fashion-1/contact.jpeg')no-repeat fixed center center;
+	background: url('../images/Fashion-1/car0.jpeg')no-repeat fixed center center;
 	-webkit-background-size: cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -295,9 +307,9 @@ i {
 	margin-top: 50px;
 }
 
-.modal-size {
-	max-width: 30%;
-}
+/*.modal-size {
+	max-width: 50%;
+}*/
 
 .title {
 	padding: 40px;
@@ -312,12 +324,12 @@ i {
 	margin-top: 0;
 	border-radius: 5px;	
 }
-
+/*
 .galleryImg:hover {
 	-webkit-transform: rotate(-7deg);
 	-moz-transform: rotate(-7deg);
 	-o-transform: rotate(-7deg);
-}
+}*/
 
 /**reviews section*/
 .reviews-section {
@@ -337,7 +349,7 @@ i {
 
 .fab {
 	/*color: rgba(157, 213, 242, 1);*/
-	color: #48D1CC;
+	color: #EF6461;
 }
 
 .footer-copyright {
@@ -555,9 +567,6 @@ i {
 		width: 100%;
 	}
 
-	.modal-size {
-		max-width: 100%;
-	}
 
 	.social-icon {
 		font-size: 10px;
